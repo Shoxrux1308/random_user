@@ -1,2 +1,3 @@
 import requests
-print(requests.__version__)
+url = "https://randomuser.me/api/"
+print(requests.get(url).text)
